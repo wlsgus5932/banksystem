@@ -1,0 +1,16 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+
+  db:
+    image: mariadb
+    container_name: banksystem
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: 1234
+      MARIADB_DATABASE: springboot
+      MARIADB_USER: jinhyun
+      MARIADB_PASSWORD: 1234
+    ports:
+      - "3306:3306"
