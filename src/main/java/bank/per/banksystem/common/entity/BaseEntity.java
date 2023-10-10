@@ -24,10 +24,10 @@ public class BaseEntity {
     @Column(nullable = false)
     private LocalDateTime updatedAt;
 
-    @CreatedBy
-    private String createdBy;
-
-    @LastModifiedBy
-    private String updatedBy;
+//    @CreatedBy
+//    private String createdBy;
+//
+//    @LastModifiedBy
+//    private String updatedBy;
 
 }
