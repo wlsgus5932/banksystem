@@ -6,6 +6,7 @@
 3. jpa, springdatajpa 좀 더 적응
 4. 자주 쓰이는 객체의 메소드 체이닝 적응 (jpa, builder 등등)
 5. DB는 docker로
+6. 테스트 코드 작성
 
 고민중인것
 1. DB를 RDB(mariadb) / nosql(mongodb) 무엇으로 할지
