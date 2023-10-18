@@ -36,6 +36,7 @@ public class TransactionService {
         Account depositAccount = accountRepository.findAccountByNumber(request.getTargetAccountNumber())
                 .orElseThrow();
 
+        //TODO : amount 관리
         Transaction deposit = Transaction.builder()
                 .balance(request.getTargetAmount())
                 .type("입금")
